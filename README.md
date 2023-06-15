@@ -1,4 +1,4 @@
-# Bnaya Json Extensions  
+# Bnaya Open Telemetry Extensions  
 
 [![Build & Deploy NuGet](https://github.com/bnayae/Bnaya.Extensions.OpenTelemetry/actions/workflows/Deploy.yml/badge.svg)](https://github.com/bnayae/Bnaya.Extensions.OpenTelemetry/actions/workflows/Deploy.yml)  
 
