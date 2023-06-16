@@ -54,6 +54,7 @@ public class MetricsExtensionsTests
             c.WithTag("Color", "blue")
              .Add(6);
             h.WithTag("Size", 123)
+             .WithTag("test", false)
              .Record(3)
              .Record(4)
              .Record(955)
