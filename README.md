@@ -1,6 +1,6 @@
 # Bnaya Open Telemetry Extensions  
 
-[![Build & Deploy NuGet](https://github.com/bnayae/Bnaya.Extensions.OpenTelemetry/actions/workflows/Deploy.yml/badge.svg)](https://github.com/bnayae/Bnaya.Extensions.OpenTelemetry/actions/workflows/Deploy.yml)  
+[![Build & Deploy NuGet](https://github.com/bnayae/Bnaya.Extensions.OpenTelemetry/actions/workflows/Deploy.yml/badge.svg)](https://github.com/bnayae/Bnaya.Extensions.OpenTelemetry/actions/workflows/Deploy.yml)
 
 [![NuGet](https://img.shields.io/nuget/v/Bnaya.Extensions.OpenTelemetry.svg)](https://www.nuget.org/packages/Bnaya.Extensions.OpenTelemetry/) 
 
