@@ -1,11 +1,7 @@
 using System.Diagnostics;
 using System.Diagnostics.Metrics;
-using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using System.Xml.Linq;
-
-using Microsoft.VisualStudio.TestPlatform.Utilities;
 
 using Xunit;
 using Xunit.Abstractions;
@@ -91,7 +87,7 @@ public class MetricsExtensionsTests
             while (!cts.Token.IsCancellationRequested && listener.Events.Length < 4)
             {
                 _output.WriteLine("wait");
-                await Task.Delay(250);           
+                await Task.Delay(250);
             }
             events = listener.Events;
 

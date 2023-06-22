@@ -10,7 +10,7 @@ namespace System.Diagnostics.Metrics
     /// Builder which appends tags before adding the delta.
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    internal sealed class HistogramBuilder<T> : IHistogramBuilder<T>  where T : struct
+    internal sealed class HistogramBuilder<T> : IHistogramBuilder<T> where T : struct
     {
         private readonly Histogram<T> _target;
         private readonly ImmutableArray<KeyValuePair<string, object?>> _tags;

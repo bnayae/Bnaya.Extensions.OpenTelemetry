@@ -13,12 +13,12 @@ internal class MetricsEventListener : EventListener
     public const EventKeywords TimeSeriesValues = (EventKeywords)0x2;
     public const EventKeywords InstrumentPublishing = (EventKeywords)0x4;
 
-    public const EventKeywords Test = TimeSeriesValues; 
+    public const EventKeywords Test = TimeSeriesValues;
     private readonly ConcurrentQueue<EventData> _events = new ConcurrentQueue<EventData>();
     public EventData[] Events => _events.ToArray();
 
     public MetricsEventListener(params string[] instruments)
-    { 
+    {
         var args = new Dictionary<string, string?> { ["Metrics"] = string.Join(",", instruments) };
         if (_source != null)
         {
@@ -33,7 +33,7 @@ internal class MetricsEventListener : EventListener
         var payload = eventData.Payload;
         if (payload == null)
             return;
-        if(payload.Count < 7) 
+        if (payload.Count < 7)
             return;
         var value = payload[6]?.ToString();
         if (string.IsNullOrEmpty(value) || payload.Count > 7 || value == "0")

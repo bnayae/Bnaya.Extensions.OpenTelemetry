@@ -7,7 +7,7 @@ namespace System.Diagnostics.Metrics
     /// Builder which appends tags before adding the delta.
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    public interface ICounterBuilder<T>: ITagBuilder<T, ICounterBuilder<T>> where T : struct
+    public interface ICounterBuilder<T> : ITagBuilder<T, ICounterBuilder<T>> where T : struct
     {
         /// <summary>
         /// Record the increment value of the measurement.

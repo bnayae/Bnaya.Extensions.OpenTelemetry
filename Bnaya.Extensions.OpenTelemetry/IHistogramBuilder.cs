@@ -7,7 +7,7 @@ namespace System.Diagnostics.Metrics
     /// Builder which appends tags before adding the record.
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    public interface IHistogramBuilder<T>: ITagBuilder<T, IHistogramBuilder<T>> where T : struct
+    public interface IHistogramBuilder<T> : ITagBuilder<T, IHistogramBuilder<T>> where T : struct
     {
         /// <summary>
         /// Record a measurement value.
