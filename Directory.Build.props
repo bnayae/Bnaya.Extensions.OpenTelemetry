@@ -1,6 +1,6 @@
 <Project>
 	<PropertyGroup>
-		<Version>5.1.162</Version>
+		<Version>5.1.163</Version>
 		<PackageReleaseNotes>
 		</PackageReleaseNotes>
 	</PropertyGroup>
